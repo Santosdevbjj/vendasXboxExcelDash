@@ -136,6 +136,11 @@ A estrutura organizada, o método ABCDE e os arquivos complementares garantem re
 
 ---
 
+**Autor:**
+Sergio Santos 
+
+
+---
 
 
 **Contato:**
