@@ -6,133 +6,140 @@
 
 ---
 
-**DESCRIÇÃO:**
-Aprenda a criar um dashboard de vendas, com foco na organização e visualização de dados.
+# Dashboard de Vendas do Xbox Game Pass em Excel 🎮📊
 
-O objetivo é transformar dados brutos em informações visuais claras e úteis, permitindo uma análise eficaz do desempenho de vendas e a tomada de decisões baseadas em dados.
+![Dashboard Preview](docs/capturas/dashboard_xbox.png)
+
+**Bootcamp Santander 2025 – Ciência de Dados com Python** **Autor:** Sérgio Santos – Especialista em Cloud e Análise de Dados
+
+---
+
+## 📝 Visão Geral
+
+Em empresas de games, acompanhar assinaturas, planos e faturamento de forma rápida e confiável é essencial para decisões estratégicas. Este projeto apresenta um dashboard interativo construído em Excel, que transforma dados brutos em informações visuais claras, permitindo uma análise eficaz do desempenho de vendas e suporte à tomada de decisões baseadas em dados reais.
+
+O projeto demonstra boas práticas de **Data Visualization**, organização de dados e documentação profissional, seguindo a metodologia **ABCDE** aplicada a dashboards corporativos.
 
 ---
 
-**Dashboard de Vendas do Xbox Game Pass**
+## 🎯 Objetivo do Projeto
 
-Este projeto tem como objetivo transformar dados brutos em informações visuais claras e úteis, permitindo uma análise eficaz do desempenho de vendas do Xbox Game Pass e auxiliando na tomada de decisões baseadas em dados.
-
-O trabalho foi desenvolvido em Excel, utilizando tabelas dinâmicas, gráficos interativos, segmentações (Slicers) e boas práticas de design de dashboards.
+* Criar um dashboard que responda perguntas de negócio críticas de forma instantânea.
+* Transformar dados complexos e variados em informações visuais acionáveis.
+* Demonstrar o domínio de técnicas avançadas de Excel, desde a extração e tratamento até a camada de apresentação.
+* Garantir a reprodutibilidade do projeto através de documentação técnica estruturada.
 
 ---
+
+## 🚀 Problema que o projeto resolve
+
+Empresas enfrentam desafios quando os dados de vendas estão dispersos ou em formatos não amigáveis. Este dashboard centraliza métricas essenciais para resolver a falta de visibilidade sobre:
+
+* **Faturamento:** Visão total e anualizada.
+* **Comportamento:** Performance por tipo de plano e taxa de auto-renovação.
+* **Ecossistema:** Volume de vendas de serviços agregados (EA Play e Minecraft Season Pass).
+* **Marketing:** Impacto real do uso de cupons e promoções no faturamento final.
+
+---
+
+## 📐 Metodologia ABCDE Aplicada
+
+Esta metodologia garante que o projeto tenha fundamentos sólidos antes mesmo da criação do primeiro gráfico.
+
+* **A — Avaliar:** Definição das perguntas de negócio (Faturamento anual, impacto de renovação automática e vendas de Add-ons).
+* **B — Base:** Extração e limpeza do arquivo `data/base01.xlsx`, com tratamento de valores ausentes e normalização de campos.
+* **C — Calcular:** Criação de colunas auxiliares e medidas para segmentação por plano, mês e cupons.
+* **D — Design:** Aplicação de um *Design System* próprio com a paleta oficial Xbox (#9BC848, #22C55E) e foco em *Data Ink Ratio* (gráficos limpos e sem distrações).
+* **E — Entregar:** Disponibilização de arquivos finais, capturas de tela e documentação de apoio.
+
+---
+
+## 🛠️ Decisões Técnicas
+
+* **Por que Excel?** Embora ferramentas como Power BI sejam poderosas, o Excel continua sendo a "língua franca" das empresas. Utilizá-lo para criar dashboards de alto nível demonstra versatilidade e domínio técnico em uma ferramenta onipresente.
+* **Gráficos e Segmentações:** O uso de *Slicers* (Segmentação de Dados) foi priorizado para oferecer uma experiência de "aplicativo" ao usuário final.
+* **Fórmulas Utilizadas:** Foco em funções de soma condicional (`SUMIFS`) e lógica (`IF`, `TEXT`) para garantir que o dashboard seja escalável caso novos dados sejam inseridos.
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+vendasXboxExcelDash/
+│
+├── data/
+│   ├── base01.xlsx             # Base de dados original
+│   ├── baseDados.md            # Estrutura da base
+│   └── dicionariodedados.xlsx  # Dicionário, Notas de Uso e Glossário
+│
+├── dashboards/
+│   ├── dashboardxboxfinalizado01.xlsx  # Versão Final
+│   └── dash.md                         # Logística de construção
+│
+├── docs/
+│   ├── metodologia_ABCDE.md    # Detalhes da metodologia
+│   ├── design_system.md        # Guia de cores e tipografia
+│   ├── checklist_qa.md         # Validação de qualidade
+│   └── capturas/               # Imagens do dashboard para visualização rápida
+│
+└── scripts/
+    └── formulas_e_dicas.md     # Guia prático de fórmulas aplicadas
+
+
+---
+
+
+💻 **Como Executar o Projeto**
+
+​Pré-requisitos: Microsoft Excel 2016 ou superior (Excel 365 recomendado).
+
+**​Passos:**
+
+```
+​Clone este repositório: git clone https://github.com/Santosdevbjj/vendasXboxExcelDash.git
+```
+
+• **​Abra o arquivo**
+dashboards/dashboardxboxfinalizado01.xlsx.
+
+​• Interaja com os filtros laterais para ver os dados se transformarem.
+
+---
+
+​🧠 **Aprendizados e Desafios**
+
+• ​Tratamento de Dados: O maior desafio foi normalizar a coluna de preços quando havia valores nulos ou "strings" mistas, resolvido com colunas auxiliares de limpeza.
+
+• ​UX Design: Aprender a equilibrar a identidade visual forte do Xbox (verde vibrante) com a necessidade de um dashboard que não canse a vista do analista.
+
+​• Documentação: A prática de documentar cada etapa em Markdown reforçou a importância de criar projetos "prontos para equipe" e não apenas para uso pessoal.
+
+---
+
+​🔮 **Próximos Passos**
+
+• ​[ ] Automatizar a atualização da base via Power Query.
+
+​• [ ] Implementar uma aba de Análise Preditiva simples para projetar o faturamento do próximo trimestre.
+
+• ​[ ] Criar uma versão complementar deste dashboard em Power BI para comparação de performance.
+
+
+
+
+
+
+
+---
+
+pasta e arquivo 
 
 <img width="869" height="1346" alt="Screenshot_20251127-113700" src="https://github.com/user-attachments/assets/2de5a577-79ea-4365-a3fe-bb00cb77d8b3" />
 
 
----
 
 
-📑 **Explicação de cada pasta e arquivo**
 
-**Pasta data/**
-- **base01.xlsx** → Base de dados original com informações de assinantes, planos, preços, add-ons e valores totais.
-- **baseDados.md** → Documento explicativo sobre a estrutura da base.
-- **dicionario_dados.md** → Versão em Markdown do dicionário de dados.
-- **dicionariodedados.xlsx** → Planilha com três abas:
-  - **Dicionário de Dados:** descrição detalhada de cada coluna.
-  - **Notas de Uso:** regras e observações sobre os dados.
-  - **Glossário:** termos técnicos usados no projeto.
-
-**Pasta dashboards/**
-- **dashboardxboxfinalizado01.xlsx** → Dashboard finalizado com KPIs e gráficos interativos.
-- **Dashboard_Vendas.xlsx** → Versão de trabalho do dashboard.
-- **dash.md** → Documento explicativo sobre a construção dos dashboards.
-
-**Pasta docs/**
-- **metodologia_ABCDE.md** → Explicação detalhada da metodologia ABCDE aplicada ao projeto.
-- **design_system.md** → Guia de design (cores, tipografia, layout).
-- **checklist_qa.md** → Lista de verificação de qualidade para validar o dashboard.
-- **capturas/** → Imagens ilustrativas do dashboard:
-  - **dashboard_xbox.png** → Visão geral do dashboard.
-  - **desempenho_vendas_xbox.png** → Gráfico de desempenho de vendas.
-  - **dashboard_kpi_xbox.png** → KPIs principais (planos, receita, add-ons).
-  - **evolucao_mensal_faturamento.png** → Evolução mensal do faturamento.
-  - **mensal_planos_xboxgame_pass.png** → Gráfico de barras empilhadas mostrando participação dos planos.
-  - **kpi_estrategico_faturamento.png** → Painel estratégico com KPIs e distribuições.
-- **imagens.md** → Documento explicativo sobre as imagens.
-
-**Pasta scripts/**
-- **formulas_e_dicas.md** → Guia prático com fórmulas do Excel (SUMIFS, colunas auxiliares, normalização) e dicas de uso.
-
----
-
-🧩 **Tecnologias utilizadas**
-
-- Microsoft Excel 2016+ / Excel 365
-  - Tabelas dinâmicas (Pivot Tables).
-  - Segmentações (Slicers).
-  - Gráficos dinâmicos (colunas, barras, pizza).
-  - Fórmulas: SUMIFS, IF, TEXT.
-- Git/GitHub
-  - Versionamento de arquivos e documentação.
-- Markdown
-  - Documentação clara e estruturada (README.md, docs/*.md).
-
----
-
-💻 **Requisitos de Hardware e Software**
-
-**Hardware**
-- CPU dual-core ou superior.
-- 4 GB RAM (8 GB recomendado).
-- ~200 MB de espaço livre para arquivos e imagens.
-
-**Software**
-- Microsoft Excel 2016 ou superior (recomendado Excel 365).
-- Navegador atualizado para acessar o GitHub.
-- Git instalado (opcional, para clonagem do repositório).
-
----
-
-📐 **Método ABCDE aplicado**
-
-**A — Avaliar**
-- Objetivo: criar um dashboard que responda perguntas de negócio sobre vendas e assinaturas do Xbox Game Pass.
-- Perguntas principais:
-  - P1: Faturamento total de vendas de planos anuais.
-  - P2: Faturamento anual separado por auto-renovação.
-  - P3: Total de vendas de assinaturas do EA Play.
-  - P4: Total de vendas de assinaturas do Minecraft Season Pass.
-
-**B — Base**
-- Arquivo de origem: data/base01.xlsx.
-- Colunas essenciais: Subscriber ID, Name, Plan, Start Date, Auto Renewal, Subscription Price, Subscription Type, EA Play Season Pass, EA Play Season Pass Price, Minecraft Season Pass, Minecraft Season Pass Price, Coupon Value, Total Value.
-- Observações: valores “-” tratados como 0; flags Yes/No; Total Value já calculado.
-
-**C — Calcular**
-- Métricas-chave:
-  - Faturamento Anual (P1).
-  - Faturamento Anual por Auto Renewal (P2).
-  - Vendas EA Play (P3).
-  - Vendas Minecraft (P4).
-- Segmentações úteis: por plano, mês, auto-renovação, cupom.
-
-**D — Design**
-- Paleta de cores:
-  - Xbox Color: #9BC848, #22C55E, #2AE6B1
-  - Menus: #5BF6A8
-  - Neutro: #E8E6E9
-- Regras:
-  - Big numbers em destaque.
-  - Gráficos limpos, sem gridlines.
-  - Filtros laterais consistentes.
-  - Títulos explicativos e rótulos diretos.
-
-**E — Entregar**
-- Arquivos finais: dashboards/dashboardxboxfinalizado01.xlsx, README.md, imagens em docs/capturas.
-- Publicação: repositório GitHub Santosdevbjj/vendasXboxExcelDash.
-
----
-
-• **Conclusão**
-
-Este projeto demonstra como aplicar boas práticas de Ciência de Dados e Data Visualization em Excel, documentando de forma profissional e clara.  
-A estrutura organizada, o método ABCDE e os arquivos complementares garantem reprodutibilidade, clareza e valor de negócio.
 
 ---
 
