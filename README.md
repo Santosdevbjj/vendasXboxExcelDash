@@ -85,8 +85,9 @@ vendasXboxExcelDash/
 └── scripts/
     └── formulas_e_dicas.md     # Guia prático de fórmulas aplicadas
 
-
+```
 ---
+
 
 
 💻 **Como Executar o Projeto**
