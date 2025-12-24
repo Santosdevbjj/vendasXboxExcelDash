@@ -10,13 +10,14 @@
 
 ![Dashboard Preview](docs/capturas/dashboard_xbox.png)
 
-**Bootcamp Santander 2025 – Ciência de Dados com Python** **Autor:** Sérgio Santos – Especialista em Cloud e Análise de Dados
 
 ---
 
 ## 📝 Visão Geral
 
-Em empresas de games, acompanhar assinaturas, planos e faturamento de forma rápida e confiável é essencial para decisões estratégicas. Este projeto apresenta um dashboard interativo construído em Excel, que transforma dados brutos em informações visuais claras, permitindo uma análise eficaz do desempenho de vendas e suporte à tomada de decisões baseadas em dados reais.
+Em empresas de games, acompanhar assinaturas, planos e faturamento de forma rápida e confiável é essencial para decisões estratégicas. 
+
+Este projeto apresenta um dashboard interativo construído em Excel, que transforma dados brutos em informações visuais claras, permitindo uma análise eficaz do desempenho de vendas e suporte à tomada de decisões baseadas em dados reais.
 
 O projeto demonstra boas práticas de **Data Visualization**, organização de dados e documentação profissional, seguindo a metodologia **ABCDE** aplicada a dashboards corporativos.
 
@@ -69,32 +70,6 @@ Esta metodologia garante que o projeto tenha fundamentos sólidos antes mesmo da
 <img width="869" height="1346" alt="Screenshot_20251127-113700" src="https://github.com/user-attachments/assets/2de5a577-79ea-4365-a3fe-bb00cb77d8b3" />
 
 
-
-
-
-
-```text
-vendasXboxExcelDash/
-│
-├── data/
-│   ├── base01.xlsx             # Base de dados original
-│   ├── baseDados.md            # Estrutura da base
-│   └── dicionariodedados.xlsx  # Dicionário, Notas de Uso e Glossário
-│
-├── dashboards/
-│   ├── dashboardxboxfinalizado01.xlsx  # Versão Final
-│   └── dash.md                         # Logística de construção
-│
-├── docs/
-│   ├── metodologia_ABCDE.md    # Detalhes da metodologia
-│   ├── design_system.md        # Guia de cores e tipografia
-│   ├── checklist_qa.md         # Validação de qualidade
-│   └── capturas/               # Imagens do dashboard para visualização rápida
-│
-└── scripts/
-    └── formulas_e_dicas.md     # Guia prático de fórmulas aplicadas
-
-```
 ---
 
 
@@ -110,7 +85,11 @@ vendasXboxExcelDash/
 ```
 
 • **​Abra o arquivo**
-dashboards/dashboardxboxfinalizado01.xlsx.
+
+```
+dashboards/dashboardxboxfinalizado01.xlsx
+```
+
 
 ​• Interaja com os filtros laterais para ver os dados se transformarem.
 
