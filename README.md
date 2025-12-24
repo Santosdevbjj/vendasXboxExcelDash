@@ -64,6 +64,15 @@ Esta metodologia garante que o projeto tenha fundamentos sólidos antes mesmo da
 
 ## 📁 Estrutura do Repositório
 
+
+
+<img width="869" height="1346" alt="Screenshot_20251127-113700" src="https://github.com/user-attachments/assets/2de5a577-79ea-4365-a3fe-bb00cb77d8b3" />
+
+
+
+
+
+
 ```text
 vendasXboxExcelDash/
 │
@@ -124,18 +133,6 @@ dashboards/dashboardxboxfinalizado01.xlsx.
 ​• [ ] Implementar uma aba de Análise Preditiva simples para projetar o faturamento do próximo trimestre.
 
 • ​[ ] Criar uma versão complementar deste dashboard em Power BI para comparação de performance.
-
-
-
-
-
-
-
----
-
-pasta e arquivo 
-
-<img width="869" height="1346" alt="Screenshot_20251127-113700" src="https://github.com/user-attachments/assets/2de5a577-79ea-4365-a3fe-bb00cb77d8b3" />
 
 
 
