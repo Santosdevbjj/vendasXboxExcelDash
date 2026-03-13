@@ -1,5 +1,12 @@
 # Dashboard de Vendas do Xbox Game Pass em Excel
 
+
+<p align="center">
+  <img src="data/assets/xbox-dashboard.png" alt="Dashboard de Vendas do Xbox Game Pass" width="600"/>
+</p>
+
+--- 
+
 ![CienciaDadosSantander](https://github.com/user-attachments/assets/024c95b3-0def-4b69-9c61-fccfc0403732)
 
 **Bootcamp Santander 2025 — Ciência de Dados com Python**
